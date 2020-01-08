@@ -1,6 +1,6 @@
 /* Landing Page */
 body{
-    background-color: rbg(0,0,0);
+    background-color: black;
 }
 
 .roadBG{
@@ -22,14 +22,9 @@ body{
     width: 2%;
 }
 
-.outRoad-right{
+.outRoad{
     width: 2%;
 }
-
-.outRoad-left{
-    width: 2%;
-}
-
 /* NavBar */
 
 /* DevArt */
