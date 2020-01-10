@@ -139,3 +139,9 @@ body{
   border-radius: 50%;
   border: 1px solid black;
 }
+.about{
+  height: auto !important;
+  background-image: url(Resources/mockup.jpg);
+  background-size: cover;
+  opacity: 0.4;
+}
