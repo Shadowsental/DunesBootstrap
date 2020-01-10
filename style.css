@@ -54,7 +54,9 @@ body{
         }
       }
 
-
+.team1{
+  height: auto !important;
+}
 
 /* endLeftLane */
 
