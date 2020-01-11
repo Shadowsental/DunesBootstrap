@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-content: center !important;
     background-image: url(pic/footer.png);
-    background-position: bottom;
+    background-size: auto;
 }
 .roadBG{
     text-align: center;
@@ -95,7 +95,15 @@ body{
 
 
 
-
+    .news {
+      overflow:hidden;
+      transition:max-height 0.3s ease-out;
+      height:auto;
+      max-height:600px; 
+    }
+    .news.collapsed {
+      max-height:0;
+    }
     
 /* endRightLane */
 .roadMid{
