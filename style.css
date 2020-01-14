@@ -7,11 +7,11 @@ body{
 }
 /* navbar */
 .navbar{
-    /* height: 20vh !important; */
+    height: 20vh !important;
     max-width: 100vw;
     justify-content: center;
     align-content: center !important;
-    background-image: url(pic/footer.png);
+    background-image: url(pic/bannerCar.png);
 
     background-position: bottom;
     background-size: auto;
@@ -78,8 +78,13 @@ body{
         }
       }
 
+.combats {
+  background-image: url(Resources/Combat.gif);
+  background-size: cover;
+}
+
 .team1{
-  height: 75vh;
+  height: auto;
   /* height: auto !important; */
 }
 .testar {
@@ -127,7 +132,17 @@ body{
     }
   }
 
-
+.about{
+  /* width: 100%; */
+  height: 80vh !important;
+  background-image: url(Resources/Screen01.jpg);
+  background-size: cover;
+  /* opacity: 0.4; */
+  overflow: auto;
+}
+.aboutText{
+  overflow: hidden;
+}
 
 .news {
   overflow:hidden;
@@ -137,9 +152,20 @@ body{
   background-color: navajowhite !;
 }
 .news:hover {
-  height: 80vh;
+  height: 120vh;
 }
 
+.twitters {
+  height: 50vh;
+  overflow:hidden;
+  transition:height 0.3s ease-out;
+  max-height:600px; 
+  background-color: navajowhite !;
+  overflow: scroll;
+}
+.twitters:hover {
+  height: 120vh;
+}
 /* endRightLane */
 .roadMid{
     width: 6%;
@@ -175,19 +201,14 @@ body{
 /* News */
 
 /* Fotter */
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-color: rgba(0, 0, 0, 0.3);
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-.about{
-  /* width: 100%; */
-  height: 80vh !important;
-  background-image: url(Resources/mockup.jpg);
+.footer {
+  width: 100% !important;
+  background-image: url(Resources/Car\ Variations.png) !important;
+  background-position: center;
   background-size: cover;
-  opacity: 0.4;
+  padding-top: 2vh;
+  padding-right: 3vh;
+}
+.fot{
+  
 }
