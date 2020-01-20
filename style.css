@@ -1,7 +1,7 @@
 /* Landing Page */
 
 body{
-    /* background-image: url(Resources/loadingscreen01.png);
+    background-image: url(Resources/loadingscreen01.png);
     background-size: cover; */
     background-color:rgb(68, 53, 53) !important;
 }
