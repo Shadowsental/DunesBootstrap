@@ -42,8 +42,8 @@
 
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand dunesBrand pr-5 pl-5 pb-5" href="#">Dunes Of Demise!!</a>
+  <nav class="navbar navbar-expand-lg   navbar-dark bg-dark">
+    
     <button class="navbar-toggler pr-5 pl-5 pb-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,6 +56,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
+      </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown
@@ -71,6 +74,7 @@
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
       </ul>
+      <a class="navbar-brand dunesBrand ml-auto pr-5 pl-5 pb-5" href="#">Dunes Of Demise!!</a>
       <!-- <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -78,15 +82,10 @@
     </div>
   </nav>
 
-  <!-- <nav class="navbar navbar-expand-lg navbar-light sticky-top container">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav> -->
+
 
   <!--MainRoadStart-->
+  <div class="container logoBack col-md-12 col-sm-12" style="height: 100vh !important;"></div>
   <div class="container" style="background-image: url('Resources/road.png'); background-repeat: repeat-y; background-position: center top; background-color: black;">
     <div class="row">
       <!-- -->
@@ -197,7 +196,76 @@
       </div>
     </div>
   </div>
+    <!-- Team Cards-->
 
+    <div id="myTeam1" class="modal fade" role="dialog">
+      <div class="modal-dialog" style="max-width: 90%;">
+          <div class="row padding" style="display: inline-flex;">
+              <div class="col-md-10 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/arvidmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Felix<br> (Puff)<br> Stenersjö</h4>
+                          <p class="card-text"></p>
+                          <a href="http://puffisbre.com/" class="btn btn-outline-secondary" target="_blank">See
+                              Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/matiasmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Gabriella<br> (Highpitch)<br> Bäck</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.rosen.ink" class="btn btn-outline-secondary" target="_blank">See
+                              Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/niklasmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Astrid<br> (Kasumika)<br> Vahlström</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.astridvahlstrom.com/" class="btn btn-outline-secondary"
+                              target="_blank">See Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/oscarmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Fredrik<br> (Ix)<br> Persson</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.fredrikjpersson.com" class="btn btn-outline-secondary"
+                              target="_blank">See Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/tobiasmug.png">
+
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/henrikmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Andreas<br> (Trikk)<br> Palm</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.felldev.com" class="btn btn-outline-secondary" target="_blank">See
+                              Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--  -->
 <!-- Fotter  -->
 <div class="footer container" style="width: 100vh; height: 30vh; color: cornsilk;">
   <div class="  ml-auto fot" style="height: 25vh; width: 30%; border-radius: 25px;">
