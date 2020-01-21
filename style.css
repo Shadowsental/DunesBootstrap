@@ -19,6 +19,13 @@ body{
 } */
 /* navbar */
 
+.bob {
+  background-image: url('http://lorempixel.com/200/200/city/9');
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
+}
+
+
 .columnItem {
   padding: 15px;
   margin-top: 15px;
@@ -112,7 +119,7 @@ body{
   height: auto !important;
 
   background-image: url(Resources/mockup.jpg);
-  background-size: cover; */
+  background-size: cover; 
   /* opacity: 0.5 !important;  */
   /* overflow: auto;  */
 }
@@ -134,16 +141,16 @@ body{
 } */
 
 .twitters {
-  height: 50vh;
+  height: 100vh !important;
   overflow:hidden;
   transition:height 0.3s ease-out;
   max-height:600px; 
   background-color: navajowhite !;
   overflow: scroll;
 }
-.twitters:hover {
+/* .twitters:hover {
   height: 120vh;
-}
+} */
 
 .bg-dunes{
     background-color: #524b48 ;

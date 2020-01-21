@@ -42,55 +42,53 @@
 
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg   navbar-dark bg-dark">
-    
-    <button class="navbar-toggler pr-5 pl-5 pb-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
-      </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <a class="navbar-brand dunesBrand ml-auto pr-5 pl-5 pb-5" href="#">Dunes Of Demise!!</a>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
-    </div>
-  </nav>
 
 
 
   <!--MainRoadStart-->
   <div class="container logoBack col-md-12 col-sm-12" style="height: 100vh !important;"></div>
   <div class="container">
-    <div class="row" style="background-image: url(pic/single-road.png); background-repeat: round; border-top-left-radius: 25px; border-top-right-radius: 25px;">
-      <!-- -->
+  <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark" style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
+    
+      <button class="navbar-toggler pr-5 pl-5 pb-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <a class="navbar-brand dunesBrand ml-auto pr-5 pl-5 pb-5" href="#">Dunes Of Demise!!</a>
+      </div>
+    </nav>
+  <!--navbar end-  -->
+    <div class="row bob" style="background-image: url(pic/single-road.png) ; background-repeat: round; border-top-left-radius: 25px; border-top-right-radius: 25px;">
+   
       <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
-        <div id=" " class=" bg-black " style="border: black sollid 3px; border-radius: 10px; height: 40vh;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4cf6DTOnzSQ?controls=1&autoplay=1&mute=1"
+        <div class=" bg-black" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4cf6DTOnzSQ?controls=1&autoplay=1&mute=1"
           allow="accelerometer;" frameborder="0" allowfullscreen></iframe></div>
         <div id="teams" id="team1" class="team1 testit bg-black" style="border: black sollid 3px; border-radius: 10px;"><h4>The Team</h4>
           <div class="col-md-10 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
@@ -171,12 +169,14 @@
             </h2></div>
         </div>
         <div id="" class="combats columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px;"></div>
-        <div id="" class="twitters columnItem" style="border: black sollid 3px; border-radius: 10px;">
-          <a class=" twitter-timeline" data-theme="dark" href="https://twitter.com/RaincoatDev?ref_src=twsrc%5Etfw">Tweets by RaincoatDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="bg-transparent" style="width: auto; height: 50vh;" ></div>
+        <div style
+         id="" class="twitters columnItem " style="border: black sollid 3px; border-radius: 10px;">
+          <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/RaincoatDev?ref_src=twsrc%5Etfw">Tweets by RaincoatDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
+        <div class="bg-transparent" style="width: auto; height: 50vh;" ></div>
 
-                <!-- <img src="pic/FCP_4407-Edit.jpg" style="max-height: 50vh;" class="img-fluid shadow-lg"> -->
-            </div>
+      </div>
         </div>
       </div>
       <div class="outRoad outRoad-right  ">
@@ -200,7 +200,14 @@
 
     <div id="myTeam1" class="modal fade" role="dialog">
       <div class="modal-dialog" style="max-width: 90%;">
+        <!-- dfsgs -->
+        
+        <!-- sdfsd -->
           <div class="row padding" style="display: inline-flex;">
+            <!-- test -->
+            
+            <!-- test end -->
+            
               <div class="col-md-10 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
                   <div class="card mt-3 p-1 text-light bg-dark">
                       <img class="card-img-top" src="mugshots/arvidmug.png">
