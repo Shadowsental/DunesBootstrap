@@ -38,7 +38,7 @@
 
 
 
-<body data-spy="scroll" data-target=".navbar"  class="bg-dark">
+<body>
 
 
   <!-- NavBar -->
@@ -46,26 +46,22 @@
 
 
   <!--MainRoadStart-->
-  <a href="#theBar">
-  <div id="logoBack" class="container logoBack col-md-12 col-sm-12" style="height: 100vh !important;">
-    
-  </div>
-</a>
-  <div class="container bob " style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
+  <div class="container logoBack col-md-12 col-sm-12" style="height: 100vh !important;"></div>
+  <div class="container">
   <!-- navbar start -->
-    <nav id="theBar" class="navbar bob navbar-expand-lg navve sticky-top navbar-dark bg-dark" style=" background-color: dimgrey;">
+    <nav class="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark" style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
     
-      <button class="navbar-toggler p-2" style="color: indigo !important;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler pr-5 pl-5 pb-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
-      <div class="collapse navbar-collapse pb-3" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#logoBack">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#trailer">Trailer</a>
+            <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="modal" data-target="#myTeam1">Team</a>
@@ -85,16 +81,51 @@
             <a class="nav-link disabled" href="#">Disabled</a>
           </li>
         </ul>
-        <a class="navbar-brand dunesBrand" href="#">Dunes Of Demise!!</a>
+        <a class="navbar-brand dunesBrand ml-auto pr-5 pl-5 pb-5" href="#">Dunes Of Demise!!</a>
       </div>
     </nav>
   <!--navbar end-  -->
-    <div class="row" style="background-image: url(pic/single-road.png); background-repeat: round;">
+    <div class="row bob" style="background-image: url(pic/single-road.png) ; background-repeat: round; border-top-left-radius: 25px; border-top-right-radius: 25px;">
    
       <div class="col-lg-6 col-md-12 col-sm-12 columnItem">
-        <div id="trailer" class=" bg-black m-auto" style="height: 40vh; width: 90%;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4cf6DTOnzSQ?controls=1&autoplay=1&mute=1"
+        <div class=" bg-black" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4cf6DTOnzSQ?controls=1&autoplay=1&mute=1"
           allow="accelerometer;" frameborder="0" allowfullscreen></iframe></div>
-        
+        <div id="teams" id="team1" class="team1 testit bg-black" style="border: black sollid 3px; border-radius: 10px;"><h4>The Team</h4>
+          <div class="col-md-10 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+            <div class="card p-2 text-light bg-dunes1">
+              <div id="slides" class="carousel  slide backFader  shadow-lg" data-interval="5000" data-ride="carousel" style="width: auto;">
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                    <li data-target="#slides" data-slide-to="3"></li>
+                    <li data-target="#slides" data-slide-to="4"></li>
+                    <li data-target="#slides" data-slide-to="5"></li>
+                </ul>
+                <div class="carousel-inner columnItem" style="width: auto; border-radius: 25px;">
+                    <div class="carousel-item active">
+                      <img class="card-img-top d-block img-fluid" src="mugshots/henrikmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top d-block img-fluid" src="mugshots/matiasmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top d-block img-fluid" src="mugshots/tobiasmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top d-block img-fluid" src="mugshots/niklasmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top d-block img-fluid" src="mugshots/arvidmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="card-img-top d-block img-fluid" src="mugshots/oscarmug.png" alt="Second slide" class = 'img-responsive'>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
         <div id="#" class="news bg-danger mt-4" style="border: black sollid 3px; border-radius: 10px;">Dunes of Demise started out as a 9 week project during 2018.
           The game could be described as a post apocalyptic travel adventrue with resource management and turned based combat.
           The player would start with a single car and two characters, the game would later have the player recruit more cars and characters while forming a caravan.
@@ -137,9 +168,10 @@
             Dunes of Demise will be short in game time, but high in replayability.
             </h2></div>
         </div>
-        <div id="" class="combats columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px !important;"></div>
+        <div id="" class="combats columnItem" style="border: black sollid 3px; height: 30vh; border-radius: 10px;"></div>
         <div class="bg-transparent" style="width: auto; height: 50vh;" ></div>
-        <div id="" class="twitters columnItem " style="border: black sollid 3px; border-radius: 10px !important;">
+        <div style
+         id="" class="twitters columnItem " style="border: black sollid 3px; border-radius: 10px;">
           <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/RaincoatDev?ref_src=twsrc%5Etfw">Tweets by RaincoatDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="bg-transparent" style="width: auto; height: 50vh;" ></div>
@@ -168,45 +200,74 @@
 
     <div id="myTeam1" class="modal fade" role="dialog">
       <div class="modal-dialog" style="max-width: 90%;">
-
-          <div class="row padding" >
-              <div class="col-md-8 m-auto" style="width: 40vw; min-width: 350px; border-radius: 10px;">
-                <div  class="  bg-black" style="border: black sollid 3px; border-radius: 10px;">
-                  <div class="col-md-10 m-auto" style="width: 40vw; min-width: 350px; border-radius: 10px;">
-                    <div class="card p-2 text-light bg-transparent">
-                      <div id="slides" class="carousel   backFader  shadow-lg" data-interval="5000" data-ride="carousel" style="width: 40vw;">
-                        <!-- <ul class="carousel-indicators">
-                            <li data-target="#slides" data-slide-to="0" class="active"></li>
-                            <li data-target="#slides" data-slide-to="1"></li>
-                            <li data-target="#slides" data-slide-to="2"></li>
-                            <li data-target="#slides" data-slide-to="3"></li>
-                            <li data-target="#slides" data-slide-to="4"></li>
-                            <li data-target="#slides" data-slide-to="5"></li>
-                        </ul> -->
-                        <div class="carousel-inner columnItem" style=" border-radius: 25px;">
-                            <div class="carousel-item active">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/henrikmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/matiasmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/tobiasmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/niklasmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/arvidmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            <div class="carousel-item">
-                              <img class="card-img-top d-block img-fluid" src="mugshots/oscarmug.png" alt="Second slide" class = 'img-responsive'>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- dfsgs -->
+        
+        <!-- sdfsd -->
+          <div class="row padding" style="display: inline-flex;">
+            <!-- test -->
+            
+            <!-- test end -->
+            
+              <div class="col-md-10 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/arvidmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Felix<br> (Puff)<br> Stenersjö</h4>
+                          <p class="card-text"></p>
+                          <a href="http://puffisbre.com/" class="btn btn-outline-secondary" target="_blank">See
+                              Profile</a>
+                      </div> -->
                   </div>
-                </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/matiasmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Gabriella<br> (Highpitch)<br> Bäck</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.rosen.ink" class="btn btn-outline-secondary" target="_blank">See
+                              Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/niklasmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Astrid<br> (Kasumika)<br> Vahlström</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.astridvahlstrom.com/" class="btn btn-outline-secondary"
+                              target="_blank">See Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/oscarmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Fredrik<br> (Ix)<br> Persson</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.fredrikjpersson.com" class="btn btn-outline-secondary"
+                              target="_blank">See Profile</a>
+                      </div> -->
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/tobiasmug.png">
+
+                  </div>
+              </div>
+              <div class="col-md-8 m-auto" style="flex: 0 0 33.334%; min-width: 350px; border-radius: 10px;">
+                  <div class="card mt-3 p-1 text-light bg-dark">
+                      <img class="card-img-top" src="mugshots/henrikmug.png">
+                      <!-- <div class="card-body">
+                          <h4 class="card-title">Andreas<br> (Trikk)<br> Palm</h4>
+                          <p class="card-text"></p>
+                          <a href="http://www.felldev.com" class="btn btn-outline-secondary" target="_blank">See
+                              Profile</a>
+                      </div> -->
+                  </div>
               </div>
           </div>
       </div>
